@@ -1,9 +1,9 @@
 service: default
-runtime: python
+runtime: python27
 api_version: 1
 threadsafe: True
 
 handlers:
 - url: /.*
-  script: main.py
+  script: main.app
   secure: always
