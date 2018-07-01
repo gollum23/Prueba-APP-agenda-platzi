@@ -1,10 +1,9 @@
 service: default
 runtime: python
 api_version: 1
-threadsafe: true
+threadsafe: True
 
 handlers:
 - url: /.*
-  script: main.app
+  script: main.py
   secure: always
-  
